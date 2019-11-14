@@ -2,10 +2,16 @@ import java.io.IOException;
 
 public class help {
     public static void main (String args[]) throws IOException {
-        System.out.println("Справка :");
-        System.out.println("1. if");
-        System.out.println("2. switch");
-        System.out.print("Выберите: ");
+        char ignore;
+
+
+            System.out.println("Справка :");
+            System.out.println("1. if");
+            System.out.println("2. switch");
+            System.out.println("2. for");
+            System.out.println("2. while");
+            System.out.println("2. do-while\n");
+            System.out.print("Выберите: ");
 
         char select = (char) System.in.read();
 
